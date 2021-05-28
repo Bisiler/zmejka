@@ -8,10 +8,10 @@ namespace zmejka
     {
         List<Point> Plist;
         
-        public Hline(int xLeft, int xRight, int y, char sym)
+        public Hline(int Yup, int Ydown, int x, char sym)
         {
             Plist = new List<Point>();
-            for(int x = xLeft; x<= xRight; x++)
+            for(int y = Yup; y<= Ydown; x++)
             {
                 Point p = new Point(x, y, sym);
                 Plist.Add(p);
