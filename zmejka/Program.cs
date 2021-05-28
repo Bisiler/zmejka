@@ -15,6 +15,9 @@ namespace zmejka
             Point p2 = new Point(4, 5, '#');//тут в скобках есть 3 позиции, и они означают вот что:x,y,символ
 
             p2.Draw();
+
+            Hline Line = new Hline(5,10,8,'+');
+            Line.Draw();
             /*int x1 = 1;
             int y1 = 3;//тут устанавливаем координаты для знанка *
             char sym1 = '*';
@@ -27,7 +30,7 @@ namespace zmejka
             Draw(x2, y2, sym2)
             Console.SetCursorPosition(x2, y2);//тут мы даем курсору позицию по координатам которые мы ввели выше
             Console.Write(sym2);//тут мы выводим на экран символ в данном случяи это #*/
-            List<int> numList = new List<int>();
+            /*List<int> numList = new List<int>();
             numList.Add(0);
             numList.Add(1);
             numList.Add(2);
@@ -44,7 +47,7 @@ namespace zmejka
             numList.RemoveAlt(0);
             List<int> Plist = new List<int>();
             Plist.Add(p1);
-            Plist.Add(p2);
+            Plist.Add(p2);*/
 
 
             Console.ReadLine();
